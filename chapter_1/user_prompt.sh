@@ -13,7 +13,7 @@ then
     echo " ${NAME} is a directory"
 elif [ -f ${NAME} ]
 then 
-    echo "${NAME} exists and is  file"
+    echo "${NAME} exists and is a file"
 else 
     echo "${NAME} is neither a valid file nor a valid directory"
 fi
